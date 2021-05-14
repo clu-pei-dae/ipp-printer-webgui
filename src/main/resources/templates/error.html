@@ -1,0 +1,11 @@
+<html lang="en">
+<head>
+    <title>Error</title>
+</head>
+<body>
+<!--/*@thymesVar id="error_class" type="java.lang.String"*/-->
+<h1 th:text="${error_class}"></h1>
+<h3 th:text="${error_message}"></h3>
+<pre th:text="${stacktrace}"></pre>
+</body>
+</html>

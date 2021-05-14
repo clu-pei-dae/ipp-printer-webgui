@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "gui.title",
+      "type": "java.lang.String",
+      "description": "The title to be used in the web interface."
+    },
+    {
+      "name": "ipp.uri",
+      "type": "java.lang.String",
+      "description": "IPP-URI to connect to the printer."
+    },
+    {
+      "name": "printer.name",
+      "type": "java.lang.String",
+      "description": "Readable name of the printer."
+    },
+    {
+      "name": "printer.location",
+      "type": "java.lang.String",
+      "description": "Readable description of the printer's location."
+    }
+  ] }
